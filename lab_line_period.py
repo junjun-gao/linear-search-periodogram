@@ -20,7 +20,7 @@ import os
 
 # 实验代码
 # 读取参数文件
-with open("scientific_research_with_python_demo/Period_ILS_method/template/parms_period_ils.json") as f:
+with open("parms_period_ils.json") as f:
     param_file = json.load(f)
 
 # 设置仿真模拟形变速率V范围和高度h范围
